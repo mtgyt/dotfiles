@@ -11,3 +11,6 @@ fi
 export PATH="/Users/ymitsugi/.rd/bin:$PATH"
 ### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
+
+# Added by Windsurf
+export PATH="/Users/ymitsugi/.codeium/windsurf/bin:$PATH"

@@ -267,7 +267,6 @@ export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"
 
 # graphoviz
 export PATH="$PATH:/opt/homebrew/bin/dot"
-[ -f "/Users/ymitsugi/.ghcup/env" ] && source "/Users/ymitsugi/.ghcup/env" # ghcup-env
 
 # aws completer
 complete -C '/opt/homebrew/bin/aws_completer' aws
@@ -299,3 +298,9 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 # pnpm end
+
+[ -f "/Users/ymitsugi/.ghcup/env" ] && . "/Users/ymitsugi/.ghcup/env" # ghcup-env
+
+
+# claude
+export CLAUDE_TIMEOUT=30000
